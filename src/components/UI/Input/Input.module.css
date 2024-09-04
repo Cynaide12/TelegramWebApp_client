@@ -1,0 +1,15 @@
+.input {
+  padding: 5px 10px;
+  border: 15px;
+  background: transparent;
+  border: 1px solid rgb(107, 98, 98);
+  width: fit-content;
+  border-radius: 5px;
+  transition: border-color 300ms;
+  box-sizing: border-box;
+}
+
+.input:focus-visible {
+  border: 1px solid white;
+  outline: none;
+}
